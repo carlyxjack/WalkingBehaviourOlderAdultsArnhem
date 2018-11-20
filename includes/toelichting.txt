@@ -1,0 +1,20 @@
+Hi Arend,
+
+Ik heb een klein probleembje wat ik niet weet hoe ik het precies moet oplossen.
+Wat betreft het attribuut of de weg wel of niet omringd wordt door groen is, is nu toegevoegd
+aan de wegen, wat als attribuut "GreenalongRoad" in de species roads wordt gedefineerd. Ik probeer nu toegang te krijgen tot dit attribuut in de "people" agent,
+wat echter niet helemaal lukt. Zou je willen kijken naar code lijnen 309-317? In plaats 
+van Greenminutes en Greenstep mee te nemen naar de volgende road segment, worden de 
+Greenminutes en Greenstep telkens per road segment opnieuw berekend.
+
+De save statements op de volgende code lijnen 328 en 339 doen het waarschijnlijk niet, omdat 
+de variablen gedefinieerd in de ask road statement (code lijnen 309-317) waarschijnlijk niet
+buiten deze lijnen gebruikt kan worden, waardoor de Green minutes in de "results.csv" dus altijd 0 zijn voor alle agents.
+Uiteraard komt ook informatie over de afstand van de path ook in het csv-bestand.
+
+Later indien alle bovenstaande problemen zijn opgelost, zal ik uiteraard proberen om de afbeeldingen van de agents'paths
+op te slaan.
+
+
+Groeten,
+Joy 

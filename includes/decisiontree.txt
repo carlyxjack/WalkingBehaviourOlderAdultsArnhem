@@ -1,0 +1,15 @@
+Fitted party:
+[1] root
+|   [2] distugs < 737.7905
+|   |   [3] scorehealth in fair, good, good/bad, poor
+|   |   |   [4] hage >= 77.035: 3.179 (n = 98, err = 45.6)
+|   |   |   [5] hage < 77.035: 3.379 (n = 211, err = 109.6)
+|   |   [6] scorehealth in excellent
+|   |   |   [7] hage < 74.525: 3.499 (n = 28, err = 13.9)
+|   |   |   [8] hage >= 74.525: 4.331 (n = 6, err = 3.5)
+|   [9] distugs >= 737.7905
+|   |   [10] hage >= 70.065: 3.547 (n = 11, err = 4.8)
+|   |   [11] hage < 70.065: 4.295 (n = 7, err = 13.5)
+
+Number of inner nodes:    5
+Number of terminal nodes: 6

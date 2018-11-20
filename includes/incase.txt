@@ -1,0 +1,169 @@
+//			p <- (one_of(greenspaces at_distance (walkbalance * avg_speed)));
+//			if p != nil {
+//				goestoGreen <- true;
+//				targetLocation <- p.location;
+//		}
+//
+//			if p = nil {
+//				goestoGreen <- false;
+//				float distance_nogreen <- walkbalance * avg_speed;
+//				list list_of_buildings<-(buildings where (each.type = "winkelfunctie"));
+////				write list_of_buildings;
+//				geometry q<-(one_of(list_of_buildings at_distance(distance_nogreen)));
+////				write q;
+//				if q != nil {
+//					goestoSupermarket <- true;
+//					targetLocation <- q.location;}
+//				if q = nil {
+//					goestoSupermarket <- false;
+//					targetLocation<-nil;
+//		}
+//
+//		
+////				float distance_nogreen <- walkbalance * speed;
+//			
+////			targetLocation <- any_location_in(one_of(buildings where (each.type = "winkelfunctie") at_distance distance_nogreen)); //			targetLocation <-any_location_in (roadnetwork at_distance distance_nogreen);
+////			write "this person doesn't go to a park";
+//		}
+//		}
+//		
+//
+//		if distanceToGreen < 738 {
+//			if scorehealth = "excellent" {
+//				walkbalance <- one_of(map_data[10]);
+//				p <- (one_of(greenspaces at_distance (walkbalance * avg_speed)));
+////				write p;
+//				if p != nil {
+//					goestoGreen <- true;
+//					targetLocation <- p.location;
+//		}
+//
+//				if p = nil {
+//					goestoGreen <- false;
+//					float distance_nogreen <- walkbalance * avg_speed;
+//					list list_of_buildings<-(buildings where (each.type = "winkelfunctie"));
+////					write list_of_buildings;
+//					geometry q<-(one_of(list_of_buildings at_distance(distance_nogreen)));
+////					write q;
+//					if q != nil {
+//						goestoSupermarket <- true;
+//						targetLocation <- q.location;}
+//					if q = nil {
+//						goestoSupermarket <- false;
+//						targetLocation<-nil;
+//		}
+//
+//		}
+//				
+//			}
+//			}
+
+
+//			if scorehealth = "fair" or scorehealth = "good" or scorehealth = "good/bad" or scorehealth = "poor" {
+//				if age > 77 {
+//					if safeneigh = "yes" {
+//						walkbalance <- one_of(map_data[5]);
+//						p <- (one_of(greenspaces at_distance (walkbalance * avg_speed)));
+//						
+//						}
+//						if p != nil {
+//						goestoGreen <- true;
+//						targetLocation <- p;
+//		}
+//
+//						if p = nil {
+//							goestoGreen <- false;
+//							float distance_nogreen <- walkbalance * avg_speed;
+//							list list_of_buildings<-(buildings where (each.type = "winkelfunctie"));
+////							write list_of_buildings;
+//							geometry q<-(one_of(list_of_buildings at_distance(distance_nogreen)));
+////						write q;
+//							if q != nil {
+//								goestoSupermarket <- true;
+//								targetLocation <- q;}
+//							if q = nil {
+//								goestoSupermarket <- false;
+//								targetLocation<-nil;
+//		}
+//
+//		}
+//						}
+//						}
+
+//
+//					if safeneigh = "no" {
+//						walkbalance <- one_of(map_data[6]);
+//						p <- (one_of(greenspaces at_distance (walkbalance * speed)));
+//						if p != nil {
+//							goestoGreen <- true;
+//							targetLocation <- p;
+//						}
+//
+//						if p = nil {
+//							goestoGreen <- false;
+//							float distance_nogreen <- walkbalance * speed;
+//							targetLocation <- any_location_in(one_of(buildings where (each.type = "winkelfunctie") at_distance distance_nogreen)); //			targetLocation <-any_location_in (roadnetwork at_distance distance_nogreen);
+//							write "this person doesn't go to a park";
+//						}
+//
+//					}
+//
+//					if age < 77 {
+//						if distanceToGreen > 339 {
+//							walkbalance <- one_of(map_data[8]);
+//							p <- (one_of(greenspaces at_distance (walkbalance * speed)));
+//							if p != nil {
+//								goestoGreen <- true;
+//								targetLocation <- p;
+//							}
+//
+//							if p = nil {
+//								goestoGreen <- false;
+//								float distance_nogreen <- walkbalance * speed;
+//								targetLocation <- any_location_in(one_of(buildings where (each.type = "winkelfunctie") at_distance distance_nogreen)); //			targetLocation <-any_location_in (roadnetwork at_distance distance_nogreen);
+//								write "this person doesn't go to a park";
+//							}
+//
+//						}
+//
+//						if distanceToGreen < 339 {
+//							walkbalance <- one_of(map_data[9]);
+//						}
+//
+//						p <- (one_of(greenspaces at_distance (walkbalance * speed)));
+//						if p != nil {
+//							goestoGreen <- true;
+//							targetLocation <- p;
+//						}
+//
+//						if p = nil {
+//							goestoGreen <- false;
+//							float distance_nogreen <- walkbalance * speed;
+//							targetLocation <- any_location_in(one_of(buildings where (each.type = "winkelfunctie") at_distance distance_nogreen)); //			targetLocation <-any_location_in (roadnetwork at_distance distance_nogreen);
+//							write "this person doesn't go to a park";
+//						}
+//
+//					}
+//
+//				}
+//
+//			}
+//
+//		}
+
+		//		p <-(one_of(greenspaces at_distance (walkbalance*speed)));
+		////		p <-(one_of(greenspaces at_distance (0.5*(gauss(base_distance,distsd)))));
+
+		//		if p!=nil{
+		//			goestoGreen <-true;
+		//			targetLocation<- p;
+		//				
+		//				}
+		//		if p =nil{
+		//			goestoGreen <- false;
+		//			float distance_nogreen<-walkbalance*speed;
+		//			targetLocation<-any_location_in(one_of(buildings where (each.type ="winkelfunctie") at_distance distance_nogreen));			//			targetLocation <-any_location_in (roadnetwork at_distance distance_nogreen);
+		//			write "this person doesn't go to a park";}
+//	}
+//	}
+	//			
